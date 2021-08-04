@@ -12,6 +12,10 @@ body {
     font-size: 16px;
 }
 
+label {
+    color: black;
+}
+
 .text-center {
     color: black;
 }
@@ -663,7 +667,6 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
@@ -697,6 +700,7 @@ a {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    color: white;
 }
 
 .h1 {
