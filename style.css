@@ -7,6 +7,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.text-center {
+    color: black;
+}
+
+.lightbox-caption {
+    color: black;
+}
+
+#portfolio-quote {
+    size: 30px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -231,7 +243,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -284,7 +296,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -651,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #fff!important;
+    color: white;
 }
 
 .container {
@@ -676,9 +688,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 12px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -705,8 +714,9 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
+    color: black;
 }
 
 h3 {
@@ -723,11 +733,16 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white;
 }
 
 h4 {
     color: #333333!important;
+}
+
+.quote {
+    size: 16px;
+    color: black;
 }
 
 .icons {
@@ -737,6 +752,10 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.info p {
+    size: 24px;
 }
 
 .portfolio-thumb {
@@ -781,7 +800,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fff!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -824,11 +843,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta-made-sign.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.jpg");
 }
 
 @media (max-width: 1024px) {
