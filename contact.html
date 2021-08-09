@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="Default">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -12,7 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-    <title>Contact</title>
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+    <title>page2</title>
 
     
 <!-- Analytics -->
@@ -20,7 +26,7 @@
 <!-- Analytics END -->
     
 </head>
-<body class="contact-page">
+<body>
 <!-- Main container -->
 <div class="page-container">
     
@@ -29,9 +35,9 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta-web-design-logo.png" height="40" alt="Web Design Logo" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<!-- <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> -->
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -42,7 +48,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="page2.html">page2</a>
 					</li>
 				</ul>
 			</div>
@@ -73,7 +79,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate>
+				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Name
@@ -90,7 +96,7 @@
 						<label>
 							How did you find me?
 						</label>
-						<input class="form-control" type="text" required id="input_504" />
+						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
@@ -104,7 +110,7 @@
 			</div>
 			<div class="col-sm-6">
 				<p>
-					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="ltc-atomic-tangerine" href="index.html">Home</a>.
+					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="ltc-atomic-tangerine" href="index.html">other page</a>.
 				</p>
 			</div>
 		</div>
@@ -156,11 +162,6 @@
 </div>
 <!-- Main container END -->
     
-<script src="./js/jquery-2.1.0.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/blocs.min.js"></script>
-<script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js"></script>
 
 </body>
 </html>
