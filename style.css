@@ -8,6 +8,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#contact-info {
+    color: black;
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+}
+
 .row .partners li {
     padding: 7px;
     font-size: 16px;
